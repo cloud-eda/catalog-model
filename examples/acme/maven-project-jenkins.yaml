@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'maven-project'
+  description: 'Jenkins CI component '
+  annotations:
+    jenkins.io/github-folder: 'git@github.com:cloud-eda/my-java-project.git'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: andrienkoaleksandr
