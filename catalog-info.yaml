@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalog-model
+  annotations:
+    github.com/project-slug: cloud-eda/catalog-model
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/test1
